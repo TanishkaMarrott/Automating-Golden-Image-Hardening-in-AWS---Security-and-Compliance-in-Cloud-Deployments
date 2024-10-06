@@ -1,0 +1,17 @@
+{
+    "name": "secure-golden-image-recipe",
+    "version": "1.0.0",
+    "parentImage": "arn:aws:imagebuilder:ap-northeast-1:aws:image/amazon-linux-2-x86/2023",
+    "components": [
+      {
+        "componentArn": "arn:aws:imagebuilder:ap-northeast-1:aws:component/amazon-linux-2-hardening/1.0.0/1"
+      },
+      {
+        "componentArn": "arn:aws:imagebuilder:ap-northeast-1:aws:component/patch-linux-base/1.0.0/1"
+      },
+      {
+        "componentArn": "arn:aws:imagebuilder:ap-northeast-1:aws:component/aws-cli/1.0.0/1"
+      }
+    ]
+  }
+  
