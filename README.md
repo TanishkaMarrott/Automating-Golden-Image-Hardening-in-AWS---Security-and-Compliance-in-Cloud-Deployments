@@ -1,4 +1,4 @@
-# Automating Golden Image Hardening Pipeline: Ensuring Security & Compliance in Cloud Deployments
+# Automating Golden Image Hardening Pipeline -Security & Compliance in Cloud Deployments
 
 ## **Description**
 This project automates the creation, hardening, and distribution of secure Amazon Machine Images (AMIs) using **AWS EC2 Image Builder** and **Terraform**. The pipeline ensures that all AMIs are kept up-to-date with the latest security patches, are compliant with regulatory and organizational standards, and are ready for production deployments. By leveraging **Infrastructure as Code (IaC)** principles, this solution automates the security hardening process at scale, offering consistency and governance across AWS environments.
